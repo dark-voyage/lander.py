@@ -4,7 +4,7 @@ import telebot
 from config import token
 from packages import loader
 
-bot = telebot.AsyncTeleBot(token)
+bot = telebot.TeleBot(token)
 app = flask.Flask(__name__)
 logger = telebot.logger
 

@@ -2,6 +2,7 @@
   <dictionary name="Genemator">
     <words>
       <w>deno</w>
+      <w>webhook</w>
     </words>
   </dictionary>
 </component>

@@ -21,7 +21,7 @@ WEBHOOK_URL_PATH = "/%s/" % token
 
 @app.route('/', methods=['GET', 'HEAD'])
 def index():
-    return ''
+    return 'Bot is working'
 
 
 @app.route(WEBHOOK_URL_PATH, methods=['POST'])

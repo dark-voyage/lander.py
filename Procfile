@@ -1,1 +1,1 @@
-worker: pip install requirements.txt && python main.py
+web: python main.py

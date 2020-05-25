@@ -9,7 +9,7 @@ app = flask.Flask(__name__)
 logger = telebot.logger
 
 WEBHOOK_HOST = 'https://denolander.herokuapp.com/'
-WEBHOOK_PORT = 443  # 443, 80, 88 или 8443 (порт должен быть открыт!)
+WEBHOOK_PORT = 5000  # 443, 80, 88 или 8443 (порт должен быть открыт!)
 WEBHOOK_LISTEN = '0.0.0.0'  # На некоторых серверах придется указывать такой же IP, что и выше
 
 WEBHOOK_SSL_CERT = './cert/webhook_cert.pem'  # Путь к сертификату

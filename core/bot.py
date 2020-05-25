@@ -1,6 +1,5 @@
-import telebot
-import logging
 import cherrypy
+import telebot
 
 from config import token
 

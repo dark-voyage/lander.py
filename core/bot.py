@@ -2,6 +2,7 @@ import flask
 import telebot
 
 from config import token
+from packages import loader
 
 bot = telebot.AsyncTeleBot(token)
 app = flask.Flask(__name__)
@@ -35,6 +36,7 @@ def webhook():
 
 
 def launch():
+    loader()
     bot.remove_webhook()
     bot.set_webhook(url=WEBHOOK_URL_BASE + WEBHOOK_URL_PATH,
                     certificate=open(WEBHOOK_SSL_CERT, 'r'))

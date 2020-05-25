@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 pytelegrambotapi = "*"
-cherrypy = "*"
+flask = "*"
 
 [requires]
 python_version = "3.8"
